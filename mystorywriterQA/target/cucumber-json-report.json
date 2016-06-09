@@ -1,0 +1,214 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: shah.iyer@gmail.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary : This is a feature file to verify functional sanity test cases."
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 19,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 21,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10118192651,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validate valid inputs on login page",
+        "description": "",
+        "id": "storywriter-sanity-test-cases;validate-valid-inputs-on-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 27965422,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23768416438,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am on storywriter login page",
+            "match": {
+              "location": "StepDefinition.i_am_on_storywriter_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 75652426,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I assert login page title",
+            "match": {
+              "location": "StepDefinition.i_assert_login_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40169533863,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I check for the broken links on the loginpage",
+            "match": {
+              "location": "StepDefinition.i_check_for_the_broken_links_on_the_loginpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21458597531,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter valid username and password and click on submit button",
+            "match": {
+              "location": "StepDefinition.i_enter_valid_username_and_password_and_click_on_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164280541,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I assert homepage title text",
+            "match": {
+              "location": "StepDefinition.i_assert_homepage_title_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5127721351,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I check for the broken links on the homepage",
+            "match": {
+              "location": "StepDefinition.i_check_for_the_broken_links_on_the_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10347308143,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I logout of the application",
+            "match": {
+              "location": "StepDefinition.i_logout_of_the_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35260642,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I assert login page title again",
+            "match": {
+              "location": "StepDefinition.i_assert_login_page_title_again()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Storywriter sanity test cases",
+    "description": "I want to use this template to verify functional sanity test cases.",
+    "id": "storywriter-sanity-test-cases",
+    "keyword": "Feature",
+    "uri": "com/home/mystorywriterQA/mystorywriter.feature"
+  }
+]
