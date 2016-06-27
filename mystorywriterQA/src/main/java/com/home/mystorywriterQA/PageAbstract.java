@@ -18,7 +18,7 @@ public class PageAbstract
 	public void navigateToWebApp(){
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-	    driver.get("http://mystorywriter-dev.us-west-2.elasticbeanstalk.com/login.jsp");	
+	    driver.get("http://mystorywriter.us-west-2.elasticbeanstalk.com/");	
 	}
 	
 
